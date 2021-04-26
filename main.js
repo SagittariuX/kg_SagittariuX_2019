@@ -2,7 +2,7 @@
 //Using the most basic feature of node
 const args = process.argv.slice(2).map((arg) => parseInt(arg, 10));
 
-//Dictionary for number to word tanslation
+//Dictionary for number to word translation
 const dict = {
   0: "Zero",
   1: "One",
@@ -17,7 +17,7 @@ const dict = {
 };
 
 /**
- * Converts an array of nums to a
+ * Converts an array of nums to an array of strings representing the phonetic equivalent of the integer
  * @param {number[]} nums
  * @returns {string[]}
  */
